@@ -56,7 +56,7 @@
 //
 // Servos
 //
-#define SERVO0_PIN                          PE5
+#define SERVO0_PIN                          PE6 //this was PE5 i am using RGB pin for servo
 
 //
 // Trinamic Stallguard pins
@@ -129,9 +129,9 @@
 //
 // Z Probe (when not Z_MIN_PIN)
 //
-#ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN                   PE4
-#endif
+//#ifndef Z_MIN_PROBE_PIN
+//  #define Z_MIN_PROBE_PIN                   PE4
+//#endif
 
 //
 // Filament Runout Sensor
@@ -498,9 +498,9 @@
 //
 // NeoPixel LED
 //
-#ifndef NEOPIXEL_PIN
-  #define NEOPIXEL_PIN                      PE6
-#endif
+//#ifndef NEOPIXEL_PIN
+//  #define NEOPIXEL_PIN                      PE6 //i am using this as the SERVO pin
+//#endif
 
 //
 // WIFI
